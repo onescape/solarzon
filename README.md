@@ -23,7 +23,7 @@ You can use the [API Guide](https://swaggerhub.com/apis/onescape/solarzon)
 
 | Supported actions | Supported events | Supported conditions |
 | --- | --- |
-| - Up\n- Down\n- Stop\n- Tilt Up\n- Tilt Down | N/A | N/A |
+| - Up<br/>- Down<br/>- Stop<br/>- Tilt Up<br/>- Tilt Down | N/A | N/A |
 
 ## Functions
 
