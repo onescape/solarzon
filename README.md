@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+# What is Solarzon?
 
-You can use the [editor on GitHub](https://github.com/onescape/solarzon/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The Solarzon is motorized shade controller connected to Internet
+- Remote controlled by smartphone
+- Multiple devices can be grouped and settings easy
+- 7-day Schedule
+- No limit on the motor that can be controlled simultaneously
+- Smart shading by tracks the location of the sun in real time
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For more details see [Solarzon Document](http://resource.one-scape.com/solarzon-en.pdf).
 
-### Markdown
+# API
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The Solarzon API is an interface for querying information from and enacting change in a Solarzon device.
+
+[NOTICE] You'll need to obtain the access token with OAuth 2.0 [OAuth Document](https://onescape.github.io/oauth) 
+
+## Supported
+
+### Supported actions
+
+- Up
+- Down
+- Stop
+- Tilt Up
+- Tilt Down
+
+You can control a single device or group
+
+### Supported events
+
+N/A
+
+### Supported conditions
+
+N/A
+
+## Function
+
+- Get information for all devices and groups owned by the user
+- Get information for all devices owned by the user
+- Get information for all groups owned by the user
+- Set control state of device
+- Set control state of group
+
+## Document
+
+You can use the [API Guide](https://swaggerhub.com/apis/onescape/solarzon)
+
+## How-to
+
+### Step 1 - Obtain the access tokens
+
+You'll need to obtain the access token with OAuth 2.0 [OAuth Document](https://onescape.github.io/oauth) 
+
+### Step 2 - Using access tokens
+
+The tokens awarded to your app can be used in requests to the API.
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+https://api.onescape.io/solarzon
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The best way to communicate your access tokens, also known as bearer tokens, is by presenting them in a request's Authorization HTTP header:
 
-### Jekyll Themes
+```markdown
+GET /RESOURCE_NAME
+Authorization: Bearer ACCESS_TOKEN
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/onescape/solarzon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This approach is required when using application/json with a write method.
 
-### Support or Contact
+![alt text](https://github.com/onescape/oauth/blob/master/swaggerhub.jpeg?raw=true)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![alt text](https://github.com/onescape/oauth/blob/master/postman.jpeg?raw=true)
