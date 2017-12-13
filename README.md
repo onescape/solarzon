@@ -15,37 +15,23 @@ The Solarzon API is an interface for querying information from and enacting chan
 
 [NOTICE] You'll need to obtain the access token with [OAuth Document](https://onescape.github.io/oauth) 
 
+## Document
+
+You can use the [API Guide](https://swaggerhub.com/apis/onescape/solarzon)
+
 ## Supported
 
-### Supported actions
+| Supported actions | Supported events | Supported conditions |
+| --- | --- |
+| - Up\n- Down\n- Stop\n- Tilt Up\n- Tilt Down | N/A | N/A |
 
-- Up
-- Down
-- Stop
-- Tilt Up
-- Tilt Down
-
-You can control a single device or group
-
-### Supported events
-
-N/A
-
-### Supported conditions
-
-N/A
-
-## Function
+## Functions
 
 - Get information for all devices and groups owned by the user
 - Get information for all devices owned by the user
 - Get information for all groups owned by the user
 - Set control state of device
 - Set control state of group
-
-## Document
-
-You can use the [API Guide](https://swaggerhub.com/apis/onescape/solarzon)
 
 ## How-to
 
