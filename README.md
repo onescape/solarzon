@@ -33,6 +33,14 @@ You can use the [API Guide](https://swaggerhub.com/apis/onescape/solarzon)
 - Set control state of device
 - Set control state of group
 
+## Model
+
+### Device/Group control state
+
+### View type
+
+
+
 ## How-to
 
 ### Step 1 - Obtain the access tokens
