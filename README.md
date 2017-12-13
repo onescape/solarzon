@@ -13,7 +13,7 @@ For more details see [Solarzon Document](http://resource.one-scape.com/solarzon-
 
 The Solarzon API is an interface for querying information from and enacting change in a Solarzon device.
 
-[NOTICE] You'll need to obtain the access token with OAuth 2.0 [OAuth Document](https://onescape.github.io/oauth) 
+[NOTICE] You'll need to obtain the access token with OAuth 2.0: [OAuth Document](https://onescape.github.io/oauth) 
 
 ## Supported
 
@@ -51,7 +51,7 @@ You can use the [API Guide](https://swaggerhub.com/apis/onescape/solarzon)
 
 ### Step 1 - Obtain the access tokens
 
-You'll need to obtain the access token with OAuth 2.0 [OAuth Document](https://onescape.github.io/oauth) 
+You'll need to obtain the access token with OAuth 2.0: [OAuth Document](https://onescape.github.io/oauth) 
 
 ### Step 2 - Using access tokens
 
