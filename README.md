@@ -49,10 +49,10 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/solarzon](https://
 
 | Enum | Display Name | Action | Preview |
 | --- | --- | --- | --- |
-| 1 | Roll blind | up/down/stop | ![alt text](https://github.com/onescape/oauth/blob/master/viewtype1.png?raw=true) |
-| 2 | Shutter blind | up/down/stop/tiltUp/tiltDown | ![alt text](https://github.com/onescape/oauth/blob/master/viewtype2.png?raw=true) |
-| 3 | Awning | up/down/stop | ![alt text](https://github.com/onescape/oauth/blob/master/viewtype3.png?raw=true) |
-| 4 | Curtain | up/down/stop | ![alt text](https://github.com/onescape/oauth/blob/master/viewtype4.png?raw=true) |
+| 1 | Roll blind | up/down/stop | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype1.png?raw=true) |
+| 2 | Shutter blind | up/down/stop/tiltUp/tiltDown | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype2.png?raw=true) |
+| 3 | Awning | up/down/stop | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype3.png?raw=true) |
+| 4 | Curtain | up/down/stop | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype4.png?raw=true) |
 
 ## How-to
 
