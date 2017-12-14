@@ -23,7 +23,7 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/solarzon](https://
 
 | Supported actions | Supported events | Supported conditions |
 | --- | --- | --- |
-| - Set device's control state to {up, stop, down, tiltUp, tiltDown}<br/>- Set group's control state to {up, stop, down, tiltUp, tiltDown} | N/A | N/A |
+| - Set device's control state to {up, stop, down, tiltUp, tiltDown, retract, extract, open, close}<br/>- Set group's control state to {up, stop, down, tiltUp, tiltDown, retract, extract, open, close} | N/A | N/A |
 
 ## Functions
 
@@ -39,7 +39,7 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/solarzon](https://
 
 | Type | Enum |
 | --- | --- |
-| string | {up, stop, down, tiltUp, tiltDown} |
+| string | {up, stop, down, tiltUp, tiltDown, retract, extract, open, close} |
 
 ### View type
 
