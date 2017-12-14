@@ -23,7 +23,7 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/solarzon](https://
 
 | Supported actions | Supported events | Supported conditions |
 | --- | --- | --- |
-| - Up<br/>- Down<br/>- Stop<br/>- Tilt Up<br/>- Tilt Down | N/A | N/A |
+| - Set control state to {up, stop, down, tiltUp, tiltDown} of device<br/>- Set control state to {up, down, stop, tiltUp, tiltDown} of group | N/A | N/A |
 
 ## Functions
 
@@ -39,20 +39,22 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/solarzon](https://
 
 | Type | Enum |
 | --- | --- |
-| string | - Up<br/>- Down<br/>- Stop<br/>- Tilt Up<br/>- Tilt Down |
+| string | {up, stop, down, tiltUp, tiltDown} |
 
 ### View type
 
 | Type | Enum |
 | --- | --- |
-| number | - 1<br/>- 2<br/>- 3<br/>- 4 |
+| string | {rollBlind, shutterBlind, awning, curtain} |
 
-| Enum | Display Name | Action | Preview |
-| --- | --- | --- | --- |
-| 1 | Roll blind | up/down/stop | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype1.png?raw=true) |
-| 2 | Shutter blind | up/down/stop/tiltUp/tiltDown | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype2.png?raw=true) |
-| 3 | Awning | up/down/stop | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype3.png?raw=true) |
-| 4 | Curtain | up/down/stop | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype4.png?raw=true) |
+Definition
+
+| Value | Action | Preview |
+| --- | --- | --- |
+| rollBlind | {up, stop, down} | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype1.png?raw=true) |
+| shutterBlind | {up, stop, down, tiltUp, tiltDown} | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype2.png?raw=true) |
+| awning | {retract, stop, extract} | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype3.png?raw=true) |
+| curtain | {open, stop, close} | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype4.png?raw=true) |
 
 ## How-to
 
