@@ -41,20 +41,20 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/solarzon](https://
 | --- | --- |
 | string | {up, stop, down, tiltUp, tiltDown, retract, extract, open, close} |
 
-### View type
+### Controller view type
 
 | Type | Enum |
 | --- | --- |
-| string | {rollBlind, shutterBlind, awning, curtain} |
+| string | {roll, shutter, awning, curtain} |
 
 Definition
 
 | Value | Action | Preview |
 | --- | --- | --- |
-| rollBlind | {up, stop, down} | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype1.png?raw=true) |
-| shutterBlind | {up, stop, down, tiltUp, tiltDown} | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype2.png?raw=true) |
-| awning | {retract, stop, extract} | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype3.png?raw=true) |
-| curtain | {open, stop, close} | ![alt text](https://github.com/onescape/solarzon/blob/master/viewtype4.png?raw=true) |
+| roll | {up, stop, down} | ![alt text](https://github.com/onescape/solarzon/blob/master/roll.png?raw=true) |
+| shutter | {up, stop, down, tiltUp, tiltDown} | ![alt text](https://github.com/onescape/solarzon/blob/master/shutter.png?raw=true) |
+| awning | {retract, stop, extract} | ![alt text](https://github.com/onescape/solarzon/blob/master/awning.png?raw=true) |
+| curtain | {open, stop, close} | ![alt text](https://github.com/onescape/solarzon/blob/master/curtain.png?raw=true) |
 
 ## How-to
 
