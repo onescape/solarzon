@@ -54,7 +54,7 @@ Definition
 | awning | {retract, stop, extract} | ![alt text](https://github.com/onescape/solarzon/blob/master/awning.png?raw=true) |
 | curtain | {open, stop, close} | ![alt text](https://github.com/onescape/solarzon/blob/master/curtain.png?raw=true) |
 
-## How-to OAuth2
+## How-to : OAuth2
 
 ### Step 1 - Obtain the access tokens
 
@@ -77,11 +77,13 @@ Authorization: Bearer ACCESS_TOKEN
 
 This approach is required when using application/json with a write method.
 
+### Sample screenshot
+
 ![alt text](https://github.com/onescape/oauth/blob/master/swaggerhub.jpeg?raw=true)
 
 ![alt text](https://github.com/onescape/oauth/blob/master/postman.jpeg?raw=true)
 
-## How-to API key
+## How-to : API key
 
 The API key awarded to your app can be used in requests to the API.
 
@@ -97,6 +99,8 @@ X-API-Key: API_KEY
 ```
 
 This approach is required when using application/json with a write method.
+
+### Sample screenshot
 
 ![alt text](swaggerhub.jpeg?raw=true)
 
