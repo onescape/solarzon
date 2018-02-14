@@ -13,8 +13,6 @@ For more details see [Solarzon Brochure](http://resource.one-scape.com/solarzon-
 
 The Solarzon API is an interface for querying information from and enacting change in a Solarzon device.
 
-[NOTICE] You'll need to obtain the access token with [OAuth Document](https://onescape.github.io/oauth) 
-
 ## YAML
 
 You can use the YAML at [https://swaggerhub.com/apis/onescape/solarzon](https://swaggerhub.com/apis/onescape/solarzon)
@@ -56,7 +54,7 @@ Definition
 | awning | {retract, stop, extract} | ![alt text](https://github.com/onescape/solarzon/blob/master/awning.png?raw=true) |
 | curtain | {open, stop, close} | ![alt text](https://github.com/onescape/solarzon/blob/master/curtain.png?raw=true) |
 
-## How-to
+## How-to OAuth2
 
 ### Step 1 - Obtain the access tokens
 
@@ -82,3 +80,24 @@ This approach is required when using application/json with a write method.
 ![alt text](https://github.com/onescape/oauth/blob/master/swaggerhub.jpeg?raw=true)
 
 ![alt text](https://github.com/onescape/oauth/blob/master/postman.jpeg?raw=true)
+
+## How-to API key
+
+The API key awarded to your app can be used in requests to the API.
+
+```markdown
+https://api.onescape.io/solarzon
+```
+
+The best way to communicate your API key, is by presenting them in a request's X-API-Key HTTP header:
+
+```markdown
+GET /RESOURCE_NAME
+X-API-Key: API_KEY
+```
+
+This approach is required when using application/json with a write method.
+
+![alt text](swaggerhub.jpeg?raw=true)
+
+![alt text](postman.jpeg?raw=true)
