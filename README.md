@@ -49,10 +49,10 @@ Definition
 
 | Value | Action | Preview |
 | --- | --- | --- |
-| roll | {up, stop, down} | <img src="roll.png" alt="alt text" width="320"> |
-| shutter | {up, stop, down, tiltUp, tiltDown} | ![alt text](shutter.png?raw=true) |
-| awning | {retract, stop, extract} | ![alt text](awning.png?raw=true) |
-| curtain | {open, stop, close} | ![alt text](curtain.png?raw=true) |
+| roll | {up, stop, down} | <img src="roll.png" alt="alt text" width="240"> |
+| shutter | {up, stop, down, tiltUp, tiltDown} | <img src="shutter.png" alt="alt text" width="240"> |
+| awning | {retract, stop, extract} | <img src="awning.png" alt="alt text" width="240"> |
+| curtain | {open, stop, close} | <img src="curtain.png" alt="alt text" width="240"> |
 
 ## How-to : OAuth2
 
