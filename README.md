@@ -49,10 +49,10 @@ Definition
 
 | Value | Action | Preview |
 | --- | --- | --- |
-| roll | {up, stop, down} | ![alt text](https://github.com/onescape/solarzon/blob/master/roll.png?raw=true) |
-| shutter | {up, stop, down, tiltUp, tiltDown} | ![alt text](https://github.com/onescape/solarzon/blob/master/shutter.png?raw=true) |
-| awning | {retract, stop, extract} | ![alt text](https://github.com/onescape/solarzon/blob/master/awning.png?raw=true) |
-| curtain | {open, stop, close} | ![alt text](https://github.com/onescape/solarzon/blob/master/curtain.png?raw=true) |
+| roll | {up, stop, down} | ![alt text](roll.png?raw=true) |
+| shutter | {up, stop, down, tiltUp, tiltDown} | ![alt text](shutter.png?raw=true) |
+| awning | {retract, stop, extract} | ![alt text](awning.png?raw=true) |
+| curtain | {open, stop, close} | ![alt text](curtain.png?raw=true) |
 
 ## How-to : OAuth2
 
